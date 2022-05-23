@@ -1,0 +1,19 @@
+## Interface: 90200
+## Title:|cffd6266cFastRoleCheck|r
+## Notes: Simple addon to remove annoying role check popups when signing up for LFR/LFD/PvP groups.
+## Author: BloodDragon2580
+## Version: 1.0
+## SavedVariablesPerCharacter: FastRoleCheck_Settings
+
+
+# Language
+Language\Default.lua
+Language\enUS.lua
+Language\deDE.lua
+Language\frFR.lua
+Language\zhCN.lua
+Language\ruRU.lua
+
+
+FastRoleCheck.lua
+Settings\settings.lua
