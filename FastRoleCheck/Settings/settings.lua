@@ -9,7 +9,7 @@ FastRoleCheck.Defaults = {
    Comment = ""
 };
 
-SLASH_FastRoleCheck1, SLASH_FastRoleCheck2 = "/frc", "/FastRoleCheck";
+SLASH_FastRoleCheck1 = "/FastRoleCheck";
 
 local frame = CreateFrame("FRAME");
 frame:RegisterEvent("ADDON_LOADED");
@@ -17,7 +17,7 @@ frame:RegisterEvent("PLAYER_LOGOUT");
 frame:RegisterEvent("PLAYER_FLAGS_CHANGED");
 
 function FastRoleCheck.ShowMessage(text)
-   print("|cff90ff90frc:|r " .. text);
+   print("|cffd6266cFastRoleCheck:|r " .. text);
 end
 
 function SlashCmdList.FastRoleCheck(msg, editbox)

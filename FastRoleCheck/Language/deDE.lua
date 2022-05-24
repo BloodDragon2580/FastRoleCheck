@@ -12,11 +12,11 @@ local L = me.L
 -----------------------------------------------------------
 
 L["commands:"] = "Verfügbare Befehle:"
-L["enable"] = "/frc enable - Addon Aktivieren"
-L["disable"] = "/frc disable - Addon Deaktivieren"
-L["disableonce"] = "/frc disableonce - Addon einmalig Deaktivieren"
-L["settings"] = "Schreibe /frc or /FastRoleCheck für die Einstellungen"
+L["enable"] = "|cffd6266c/FastRoleCheck enable|r - Addon Aktivieren"
+L["disable"] = "|cffd6266c/FastRoleCheck disable|r - Addon Deaktivieren"
+L["disableonce"] = "|cffd6266c/FastRoleCheck disableonce|r - Addon einmalig Deaktivieren"
+L["settings"] = "Schreibe |cffd6266c/FastRoleCheck|r für die Einstellungen"
 
-L["en"] = "Aktiviert"
-L["dis"] = "Deaktiviert"
-L["disonce"] = "Einmalig Deaktiviert"
+L["en"] = "|cff00FF00Aktiviert|r"
+L["dis"] = "|cffC53A48Deaktiviert|r"
+L["disonce"] = "|cffE38421Einmalig Deaktiviert.|r"

@@ -12,11 +12,11 @@ local L = me.L
 -----------------------------------------------------------
 
 L["commands:"] = "Available commands: "
-L["enable"] = "/frc enable - enable addon"
-L["disable"] = "/frc disable - disable addon"
-L["disableonce"] = "/frc disableonce - disable only for the next role check"
-L["settings"] = "type /frc or /FastRoleCheck for Settings."
+L["enable"] = "|cffd6266c/FastRoleCheck enable|r - enable addon"
+L["disable"] = "|cffd6266c/FastRoleCheck disable|r - disable addon"
+L["disableonce"] = "|cffd6266c/FastRoleCheck disableonce|r - disable only for the next role check"
+L["settings"] = "type |cffd6266c/FastRoleCheck|r for Settings."
 
-L["en"] = "enabled"
-L["dis"] = "Disabled"
-L["disonce"] = "Disabled for next role check only."
+L["en"] = "|cff00FF00enabled|r"
+L["dis"] = "|cffC53A48Disabled|r"
+L["disonce"] = "|cffE38421Disabled for next role check only.|r"
