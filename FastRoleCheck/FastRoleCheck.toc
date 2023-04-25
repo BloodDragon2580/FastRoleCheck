@@ -1,8 +1,8 @@
-## Interface: 100007
+## Interface: 100100
 ## Title:|cffd6266cFastRoleCheck|r
 ## Notes: Skips role selection.
 ## Author: BloodDragon2580
-## Version: 1.7
+## Version: 1.8
 ## SavedVariablesPerCharacter: FastRoleCheck_Settings
 
 
