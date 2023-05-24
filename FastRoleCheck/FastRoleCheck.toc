@@ -2,9 +2,9 @@
 ## Title:|cffd6266cFastRoleCheck|r
 ## Notes: Skips role selection.
 ## Author: BloodDragon2580
-## Version: 1.8
+## Version: 1.9
 ## SavedVariablesPerCharacter: FastRoleCheck_Settings
-
+## IconTexture: Interface\AddOns\FastRoleCheck\Media\Texture\logo
 
 # Language
 Language\Default.lua
