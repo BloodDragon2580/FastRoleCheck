@@ -1,8 +1,8 @@
-## Interface: 100207
+## Interface: 110002
 ## Title:|cffd6266cFastRoleCheck|r
 ## Notes: Skips role selection.
 ## Author: BloodDragon2580
-## Version: 2.7
+## Version: 2.9
 ## SavedVariablesPerCharacter: FastRoleCheck_Settings
 ## IconTexture: Interface\AddOns\FastRoleCheck\Media\Texture\logo
 
