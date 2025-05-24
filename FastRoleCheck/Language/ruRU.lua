@@ -12,9 +12,9 @@ local L = me.L
 -----------------------------------------------------------
 
 L["commands:"] = "Доступные команды: "
-L["enable"] = "|cffd6266c/Включить FastRoleCheck|r - включить аддон"
-L["disable"] = "|cffd6266c/Выключить FastRoleCheck|r - выключить аддон"
-L["disableonce"] = "|cffd6266c/Отключить один раз FastRoleCheck|r - отключить только для следующей проверки роли"
+L["enable"] = "|cffd6266c/FastRoleCheck enable|r - включить аддон"
+L["disable"] = "|cffd6266c/FastRoleCheck disable|r - выключить аддон"
+L["disableonce"] = "|cffd6266c/FastRoleCheck disableonce|r - отключить только для следующей проверки роли"
 L["settings"] = "введите |cffd6266c/FastRoleCheck|r, чтобы открыть настройки."
 
 L["en"] = "|cff00FF00Включен|r"
