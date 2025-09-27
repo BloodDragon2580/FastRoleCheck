@@ -1,9 +1,9 @@
-## Interface: 110200
+## Interface: 110205
 ## Title:|cffd6266cFastRoleCheck|r
 ## Notes: Skips role selection.
 ## Notes-ruRU: Пропускает выбор роли.
 ## Author: BloodDragon2580
-## Version: 9.4
+## Version: 9.5
 ## SavedVariablesPerCharacter: FastRoleCheck_Settings
 ## IconTexture: Interface\AddOns\FastRoleCheck\Media\Texture\logo
 
