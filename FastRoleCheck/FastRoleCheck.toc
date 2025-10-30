@@ -3,7 +3,7 @@
 ## Notes: Skips role selection.
 ## Notes-ruRU: Пропускает выбор роли.
 ## Author: BloodDragon2580
-## Version: 9.9
+## Version: 10.0
 ## SavedVariablesPerCharacter: FastRoleCheck_Settings
 ## IconTexture: Interface\AddOns\FastRoleCheck\Media\Texture\logo
 
