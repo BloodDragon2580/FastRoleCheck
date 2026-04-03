@@ -31,7 +31,7 @@ function SlashCmdList.FastRoleCheck(msg, editbox)
       FastRoleCheck.ShowMessage(L["en"]);
    elseif ( command == "disable" ) then
       FastRoleCheck.PrevStatus = nil;
-      FastRoleCheck.DisableOnce = false;
+      FastRoleCheck.Settings.DisableOnce = false;
       FastRoleCheck.Settings.Enabled = false;
       FastRoleCheck.ShowMessage(L["dis"]);
    elseif ( command == "disableonce" ) then
@@ -52,6 +52,11 @@ local function RestorePrevStatus()
    FastRoleCheck.PrevStatus = nil;
 end
 
+local function SafeUnitFlag(checkFunc, unit)
+   local ok, result = pcall(checkFunc, unit);
+   return ok and result == true;
+end
+
 local function EventHandler(self, event, arg, ...)
    if ( event == "ADDON_LOADED" and arg == "FastRoleCheck" ) then
       FastRoleCheck.ShowMessage(L["settings"]);
@@ -63,7 +68,8 @@ local function EventHandler(self, event, arg, ...)
          end
       end
    elseif ( event == "PLAYER_FLAGS_CHANGED" and arg == "player" ) then
-      local isAFK, isDND = UnitIsAFK(arg), UnitIsDND(arg);
+      local isAFK = SafeUnitFlag(UnitIsAFK, arg);
+      local isDND = SafeUnitFlag(UnitIsDND, arg);
       if ( isAFK or isDND ) then
          if ( not FastRoleCheck.PrevStatus ) then
             FastRoleCheck.PrevStatus = FastRoleCheck.Settings.Enabled;
